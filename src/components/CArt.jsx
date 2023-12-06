@@ -20,8 +20,8 @@ export const Cart = () => {
     }
 
     return (
-        <section className='box'>
-            <div className='changuito'>
+        <section className='changuito'>
+            <div>
                 {items?.map((item) => (
                     <Card className='p-2 m-2 cardChanguito' key={item.id} style={{ width: '16rem', padding: '5px' }}>
                         <Card.Img variant="top" src={item.pictureUrl} />
