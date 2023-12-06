@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #152340;
+}
+
+.container>span {
+    color: white;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #bf5239;
+    width: 100%;
+    color: white;
+    padding-top: 50px;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bf5239;
+    width: 100%;
+    color: white;
+    padding-top: 25px;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyButton {
+    background-color: #152340;
+    color: white;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+}
+
+.changuito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardChanguito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cardBody{
+    align-items: center;
+}
