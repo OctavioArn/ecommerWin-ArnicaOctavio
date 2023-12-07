@@ -60,7 +60,7 @@
 
 .changuito {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #bf5239;
@@ -74,7 +74,12 @@
     padding: 10px;
 }
 
-.cardBody{
+.changuitoItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardBody {
     align-items: center;
 }
 
@@ -88,4 +93,15 @@
     width: 100%;
     color: white;
     padding-top: 50px;
+}
+
+.totalPrice{
+    color: white;
+}
+
+.cartWid {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
 }
